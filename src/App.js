@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Contactlist from './components/ContactList';
 
 function App() {
   return (
     <div>
-      
+      <Contactlist />
     </div>
   );
 }
