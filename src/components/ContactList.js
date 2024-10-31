@@ -14,9 +14,11 @@ function Contactlist() {
             <ul>
             {contacts.map((contact, index) => (
                 <li key={index}>
-                    <strong>{contact.firstName} {contact.lastName}</strong><br />
-                    <em>{contact.email}</em>
-                    {contact.phone }
+                    <p>{contact.firstName} {contact.lastName}</p>
+                    <p>{contact.email}</p>
+                    <p>{contact.phone}</p>
+                    <p>{contact.company}</p>
+                    <p>{contact.position}</p>
                 </li>
             ))}
             </ul>
